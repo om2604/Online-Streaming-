@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+}
+.container {
+  /* background-color: red; */
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/cc73e7c7-7860-4ef4-8fc8-1baf24569d2f/web/IN-en-20260126-TRIFECTA-perspective_90d714e8-acc9-4253-ab46-ca6b349c1989_large.jpg");
+  opacity: 0.99999999999999999999;
+  height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    /* background-color: blue; */
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* height: 4vh; */
+}
+.header-left img{
+    width: 200px;
+    margin-top: 20px;
+}
+
+.header-right a{
+    text-decoration: none;
+    background-color: rgb(299, 9, 0);
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.header-right select{
+    padding: 10px 20px;
+    border-radius: 5px;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-right: 5px;
+    border: 1px solid white;
+}
+.header-right{
+   
+    margin-right: 25px;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding-top: 140px;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    /* margin-bottom: 500px; */
+    /* height: 96vh; */
+}
+.hero-section h1{
+    font-size: 55px;
+    color: white;
+}
+.hero-section h3{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: white;
+}
+.hero-section p{
+    margin-bottom: 20px;
+    color: white;
+}
+.email-form{
+    margin-bottom: 58px;
+    display: flex;
+}
+.email-form input{
+    height: 50px;
+    width: 400px;
+    /* color: white; */
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.email-form button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(299, 9, 0);
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.trending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+   
+   
+}
+.trending .mov{
+    border: 2px solid white;
+    /* background-color: red; */
+    /* height: 280px;
+    width: 200px; */
+    object-fit: cover;
+}
+.trending .mov img{
+    height: 280px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.reason{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+}
+.reason .join{
+    border: 2px solid white;
+    /* background-color: green; */
+    height: 200px;
+    width: 200px;
+}
